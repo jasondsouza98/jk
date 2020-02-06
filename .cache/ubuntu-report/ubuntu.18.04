@@ -1,0 +1,73 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "Dell Inc.",
+    "Product": "Vostro 3470"
+  },
+  "BIOS": {
+    "Vendor": "Dell Inc.",
+    "Version": "1.5.11"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "1",
+    "Cores": "4",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "158",
+    "Stepping": "11",
+    "Name": "Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "3e91"
+    }
+  ],
+  "RAM": 8,
+  "Partitions": [
+    456.4,
+    0.1
+  ],
+  "Screens": [
+    {
+      "Size": "409mmx230mm",
+      "Resolution": "1366x768",
+      "Frequency": "59.79"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_IN",
+  "Timezone": "Asia/Kolkata",
+  "Install": {
+    "Media": "Ubuntu 18.04.1 LTS \"Bionic Beaver\" - Release amd64 (20180725)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "resize_use_free",
+    "DownloadUpdates": false,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "11": "console_setup",
+      "16": "prepare",
+      "52": "partman",
+      "115": "start_install",
+      "136": "timezone",
+      "168": "usersetup",
+      "237": "user_done",
+      "755": "done"
+    }
+  }
+}
